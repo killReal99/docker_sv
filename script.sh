@@ -3,7 +3,7 @@
 echo  "The script is running!"
 
 #Cmake install
-apt install wget make -y
+apt install wget make gcc g++ -y
 #cd /root/
 wget https://github.com/Kitware/CMake/releases/download/v3.27.4/cmake-3.27.4.tar.gz
 tar -zxvf cmake-3.27.4.tar.gz
