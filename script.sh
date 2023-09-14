@@ -10,6 +10,8 @@ cd cmake-3.27.4/
 ./bootstrap
 make
 make install
+cd ..
+export PATH="`pwd`/cmake-3.27.4/bin:$PATH"
 cmake --version
 
 echo "The script is finished working!"
