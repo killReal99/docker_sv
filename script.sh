@@ -1,7 +1,8 @@
 #!/bin/bash
 
-echo  "The script is running!"
+echo  "Start CMake installation"
 
+apt update
 #Cmake install
 apt install wget make gcc g++ -y
 #cd /root/
@@ -15,4 +16,4 @@ cd ..
 export PATH="`pwd`/cmake-3.27.4/bin:$PATH"
 cmake --version
 
-echo "The script is finished working!"
+echo "Cmake install!"
