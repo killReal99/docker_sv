@@ -3,7 +3,8 @@
 echo  "The script is running!"
 
 #Cmake install
-cd /user/share/
+apt install wget make
+#cd /root/
 whet https://github.com/Kitware/CMake/releases/download/v3.27.4/cmake-3.27.4.tar.gz
 tar -zxvf cmake-3.27.4.tar.gz
 cd cmake-3.27.4/
