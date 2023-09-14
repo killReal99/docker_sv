@@ -17,3 +17,7 @@ export PATH="`pwd`/cmake-3.27.4/bin:$PATH"
 cmake --version
 
 echo "Cmake install!"
+
+echo "Start SV sending!"
+chmod +x ./ISNetworkBench
+./ISNetworkBench

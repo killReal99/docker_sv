@@ -7,4 +7,3 @@ COPY ISNetworkBench ISNetworkBench
 
 RUN chmod +x ./script.sh
 ENTRYPOINT ./script.sh
-ENTRYPOINT ./ISNetworkBench
